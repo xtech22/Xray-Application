@@ -1,0 +1,11 @@
+spring: 
+  datasource:
+    username: xray_app
+    password: xray_app
+    url: jdbc:mysql://localhost:3306/xray_app
+    
+  jpa:
+    hibernate: 
+      ddl-auto: create
+    show-sql: true
+    defer-datasource-initialization: true 
